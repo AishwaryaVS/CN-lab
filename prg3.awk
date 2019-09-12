@@ -43,5 +43,5 @@ printf("UDP packets sent: %d\n",UDPSent);
 printf("UDP packets receieved: %d\n",UDPReceived);
 printf("UDP packets lost: %d\n",UDPLost);
 printf("Total sent: %d\n",totalSent);
-printf("Total Dropped: %d\n",totalDropped);
+printf("Total Dropped: %d\n",totalLost);
 }
