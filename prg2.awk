@@ -21,7 +21,7 @@ BEGIN{
 	if(event == "r" && pkttype == "tcp" && fromnode == "0.0" && tonode == "1.0")
 	{
 	
-	telnetPackage++;
+	telnetPackets++;
 	
 	telnetSize = pktsize;
 	
